@@ -3,6 +3,7 @@
 namespace pronap\Http\Controllers;
 
 use Illuminate\Http\Request;
+use pronap\Aluno;
 
 class HomeController extends Controller
 {
@@ -15,6 +16,20 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+
+        $alunos = \pronap\Aluno::get();
+
+        return view('home',compact('alunos'));
     }
+
+    public function delete($idAluno){
+
+        $alunos = Aluno::find($idAluno);
+        $alunos->delete();
+
+        return redirect('admin/home');
+
+    }
+
+
 }

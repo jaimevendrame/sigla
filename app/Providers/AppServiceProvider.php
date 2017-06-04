@@ -1,6 +1,6 @@
 <?php
 
-namespace pronap\Providers;
+namespace Sigla\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

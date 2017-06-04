@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'PRONAP',
+    'name' => 'SiGLA',
 
     /*
     |--------------------------------------------------------------------------
@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        pronap\Providers\AppServiceProvider::class,
-        pronap\Providers\AuthServiceProvider::class,
-        // pronap\Providers\BroadcastServiceProvider::class,
-        pronap\Providers\EventServiceProvider::class,
-        pronap\Providers\RouteServiceProvider::class,
+        Sigla\Providers\AppServiceProvider::class,
+        Sigla\Providers\AuthServiceProvider::class,
+        // Sigla\Providers\BroadcastServiceProvider::class,
+        Sigla\Providers\EventServiceProvider::class,
+        Sigla\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace pronap\Http\Controllers\Auth;
+namespace Sigla\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
-use pronap\Http\Controllers\Controller;
+use Sigla\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use pronap\User;
+use Sigla\User;
 
 class LoginController extends Controller
 {

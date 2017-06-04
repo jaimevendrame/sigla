@@ -1,9 +1,9 @@
 <?php
 
-namespace pronap\Http\Controllers\Auth;
+namespace Sigla\Http\Controllers\Auth;
 
-use pronap\User;
-use pronap\Http\Controllers\Controller;
+use Sigla\User;
+use Sigla\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

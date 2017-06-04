@@ -1,10 +1,10 @@
 <?php
 
-namespace pronap\Providers;
+namespace Sigla\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use pronap\User;
+use Sigla\User;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -14,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'pronap\Model' => 'pronap\Policies\ModelPolicy',
+        'Sigla\Model' => 'Sigla\Policies\ModelPolicy',
     ];
 
     /**

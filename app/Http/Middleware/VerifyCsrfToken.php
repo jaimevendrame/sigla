@@ -1,6 +1,6 @@
 <?php
 
-namespace pronap\Http\Middleware;
+namespace Sigla\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

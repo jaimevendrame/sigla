@@ -1,11 +1,11 @@
 <?php
 
-namespace pronap\Http\Controllers;
+namespace Sigla\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use pronap\Http\Requests;
-use pronap\Aluno;
+use Sigla\Http\Requests;
+use Sigla\Aluno;
 
 class AlunoController extends Controller
 {

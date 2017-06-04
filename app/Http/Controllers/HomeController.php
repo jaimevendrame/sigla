@@ -1,9 +1,9 @@
 <?php
 
-namespace pronap\Http\Controllers;
+namespace Sigla\Http\Controllers;
 
 use Illuminate\Http\Request;
-use pronap\Aluno;
+use Sigla\Aluno;
 
 class HomeController extends Controller
 {
@@ -17,7 +17,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        $alunos = \pronap\Aluno::get();
+        $alunos = \Sigla\Aluno::get();
 
         return view('home',compact('alunos'));
     }

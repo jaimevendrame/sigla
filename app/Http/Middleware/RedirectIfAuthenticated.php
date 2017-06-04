@@ -1,6 +1,6 @@
 <?php
 
-namespace pronap\Http\Middleware;
+namespace Sigla\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
